@@ -1,0 +1,19 @@
+{
+  "name": "meld-backend",
+  "version": "1.0.0",
+  "description": "MELD backend (rebuilt) \u2014 OpenAI + optional xAI scout, runMode dropdown compatible, Redis sessions, token auth",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.2",
+    "jszip": "^3.10.1",
+    "openai": "^4.68.4",
+    "redis": "^4.6.13"
+  }
+}
